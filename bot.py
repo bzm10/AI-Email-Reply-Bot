@@ -13,7 +13,7 @@ IMAP_SERVER = "imap.gmail.com"
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 ALLOWED_DOMAINS = ["@gmail.com", "@yahoo.com", "@outlook.com", "@hotmail.com", "@aol.com", "@icloud.com"]
-REFRESH_INTERVAL = 15  # Intervar in seconds to check for new emails
+REFRESH_INTERVAL = 60  # Intervar in seconds to check for new emails
 
 # Load environment variables for credentials and API keys (Recommended for security)
 load_dotenv()
